@@ -3,6 +3,7 @@ import { FiSearch, FiX, FiPlus, FiAlertTriangle, FiInfo } from "react-icons/fi";
 import { GiMedicinePills } from "react-icons/gi";
 import { FaFemale, FaBaby, FaHeart, FaFlask } from "react-icons/fa";
 import { BsDroplet, BsHeartPulse } from "react-icons/bs";
+import Navbar from "./components/Navbar";
 
 
 const App = () => {
@@ -264,6 +265,7 @@ const App = () => {
 
   return (
     <>
+    <Navbar/>
 
        <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 p-4 md:p-6">
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
